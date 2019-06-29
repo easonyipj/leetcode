@@ -42,25 +42,15 @@ namespace dp{
                 return 0;
             }
 
-            // min为历史最低价位
-            // max为最大利润
-            int min = prices[0];
-            int max = 0;
+            int sum = 0;
 
-            // 不断比较当前价位和历史最低价位 当前最大利润总是在（当前价位-历史最低价位）和 历史最大利润中产生
-            // max = max(prices[i] - min, max)
-            for(int i = 1; i < prices.size(); i++) {
-                if(prices[i] > min) {
-                    int sum = prices[i] - min;
-                    if(sum > max) {
-                        max = sum;
-                    }
-                }else {
-                    min = prices[i];
+            for(int i = 0; i < prices.size() - 1; i++) {
+                if(prices[i + 1] > prices[i]) {
+                    sum += prices[i + 1] - prices[i];
                 }
             }
 
-            return max;
+            return sum;
         }
 
 
