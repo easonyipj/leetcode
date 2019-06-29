@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/yipingjian/CLionProjects/leetcode/dp/maxProfit.cpp
+vector
+/Users/yipingjian/CLionProjects/leetcode/dp/vector
+
+/Users/yipingjian/CLionProjects/leetcode/main.cpp
+iostream
+-
+vector
+-
+dp/maxProfit.cpp
+/Users/yipingjian/CLionProjects/leetcode/dp/maxProfit.cpp
+
