@@ -1,34 +1,43 @@
 //
 // Created by 易平建 on 2019-06-28.
-// 硬币找零 https://blog.csdn.net/qq_37807889/article/details/84953159
+// 硬币找零 https://leetcode-cn.com/problems/coin-change/
+// 题解 https://leetcode-cn.com/problems/coin-change/solution/dong-tai-gui-hua-suan-fa-si-xiang-by-hikes/
 #include<cmath>
 #include "limits.h"
 #include<iostream>
+#include "vector"
+
+using namespace std;
 
 namespace dp{
     class coinsCash{
     public:
-        // n 要找零的金额
+        // amount 要找零的金额
         // coins 零钱数组 {1, 3, 5}...
-        // coinNum 硬币种类数
-        static int coinsChange(int n, int* coins, int coinNum){
-            // 对应金额需要的硬币
-            int cost[n + 1];
-            cost[0] = 0;
-            for(int i = 1; i < n + 1; i++) {
-                // 初始化为最大值
-                cost[i] = INT_MAX;
+        static int coinsChange(vector<int>& coins, int amount){
+            if(coins.empty()) {
+                return -1;
             }
 
-            for(int i = 1; i <= n; i++) {
-                for(int j = 0; j < coinNum; j++) {
-                    if(coins[j] <= i){
-                        cost[i] = std::fmin(cost[i], cost[i - coins[j]] + 1);
+            vector<int> dp(amount + 1);
+            dp[0] = 0;
+
+            for(int i = 1; i <= amount; i++){
+                int ans = INT_MAX;
+                for(int coin : coins) {
+                    int temp;
+                    if(i < coin){
+                        temp = INT_MAX;
+                    }else{
+                        temp = dp[i - coin] == INT_MAX ? INT_MAX : dp[i - coin] + 1;
                     }
+                    ans = min(temp, ans);
                 }
+                dp[i] = ans;
             }
 
-            return cost[n];
+            return dp[amount] == INT_MAX ? -1 : dp[amount];
+
         }
     };
 }
