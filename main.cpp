@@ -2,14 +2,18 @@
 #include <vector>
 #include "map"
 #include "algorithm"
-#include "./dp/coinsCash.cpp"
+#include "./dp/uniquePaths.cpp"
 
 using namespace std;
 
 int main()
 {
-    vector<int> vec = {3,5};
-    cout<<dp::coinsCash::coinsChange(vec, 4)<<endl;
+    vector<vector<int>> vec = {
+                               {0, 0, 0},
+                               {0, 1, 0},
+                               {0, 0, 0}
+                              };
+    cout<<dp::uniquePaths::getUniquePathsII(vec)<<endl;
 }
 
 
