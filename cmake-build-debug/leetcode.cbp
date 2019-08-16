@@ -8,111 +8,156 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/yipingjian/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/yipingjian/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yipingjian/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yipingjian/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yipingjian/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/Users/yipingjian/CLionProjects/leetcode/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/yipingjian/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yipingjian/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yipingjian/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yipingjian/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/Users/yipingjian/CLionProjects/leetcode/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/yipingjian/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yipingjian/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yipingjian/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yipingjian/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="leetcode">
-				<Option output="/Users/yipingjian/CLionProjects/leetcode/cmake-build-debug/leetcode" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/yipingjian/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option output="C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/cmake-build-debug/leetcode.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:\compiler\include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/yipingjian/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 leetcode"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yipingjian/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yipingjian/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yipingjian/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 leetcode"/>
+					<CompileFile command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="leetcode/fast">
-				<Option output="/Users/yipingjian/CLionProjects/leetcode/cmake-build-debug/leetcode" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/yipingjian/CLionProjects/leetcode/cmake-build-debug"/>
+				<Option output="C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/cmake-build-debug/leetcode.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:\compiler\include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/yipingjian/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 leetcode/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yipingjian/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yipingjian/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yipingjian/CLionProjects/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 leetcode/fast"/>
+					<CompileFile command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/yipingjian/CLionProjects/leetcode/dp/climbStairs.cpp">
+		<Unit filename="C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/backtracking/restoreIpAddresses.cpp">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="/Users/yipingjian/CLionProjects/leetcode/dp/coinsCash.cpp">
+		<Unit filename="C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/backtracking/wordSearch.cpp">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="/Users/yipingjian/CLionProjects/leetcode/dp/cutSteelStrip.cpp">
+		<Unit filename="C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/dp/canJump.cpp">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="/Users/yipingjian/CLionProjects/leetcode/dp/longestPalindrome.cpp">
+		<Unit filename="C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/dp/climbStairs.cpp">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="/Users/yipingjian/CLionProjects/leetcode/dp/maxProfit.cpp">
+		<Unit filename="C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/dp/coinsCash.cpp">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="/Users/yipingjian/CLionProjects/leetcode/dp/maxSubArray.cpp">
+		<Unit filename="C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/dp/cutSteelStrip.cpp">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="/Users/yipingjian/CLionProjects/leetcode/dp/rob.cpp">
+		<Unit filename="C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/dp/decodeWays.cpp">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="/Users/yipingjian/CLionProjects/leetcode/graph/courseSchedule.cpp">
+		<Unit filename="C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/dp/longestIncreasingContinuousSubsequence.cpp">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="/Users/yipingjian/CLionProjects/leetcode/main.cpp">
+		<Unit filename="C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/dp/longestPalindrome.cpp">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="/Users/yipingjian/CLionProjects/leetcode/string/shortestPalindrome.cpp">
+		<Unit filename="C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/dp/maxProfit.cpp">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="/Users/yipingjian/CLionProjects/leetcode/CMakeLists.txt">
+		<Unit filename="C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/dp/maxSubArray.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/dp/minimumPathSum.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/dp/paintHouse.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/dp/rob.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/dp/subset.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/dp/uniquePaths.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/dp/wordBreak.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/graph/courseSchedule.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/main.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/pdd/pdd.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/stack/IsPopOrder.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/string/shortestPalindrome.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/tree/traverse.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/tree/treeNode.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/tree/verifySquenceOfBST.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

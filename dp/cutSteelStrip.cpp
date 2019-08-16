@@ -2,12 +2,13 @@
 // Created by 易平建 on 2019-06-26.
 // https://www.cnblogs.com/mengwang024/p/4342796.html 切钢条
 
-#include "math.h"
+#include "algorithm"
+
+using namespace std;
 
 namespace dp{
     class cutSteelStrip{
     public:
-
         // 自顶向下递归
         static int cut(int *p, int n) {
             if(n == 0) {
@@ -16,7 +17,7 @@ namespace dp{
 
             int q = -1;
             for(int i = 1; i <= n; i++) {
-                q = fmax(q, p[i] + cut(p, n - i));
+                q = max(q, p[i] + cut(p, n - i));
             }
 
             return q;
@@ -35,7 +36,7 @@ namespace dp{
 
             int q = -1;
             for(int i = 1; i <= n; i++) {
-                q = fmax(q, p[i] + cutWithMemo(p, n - i, r));
+                q = max(q, p[i] + cutWithMemo(p, n - i, r));
             }
 
             r[n] = q;
@@ -56,7 +57,7 @@ namespace dp{
 
             for(int i = 1; i <= n; i++) {
                 for(int j = 1; j <= i; j++) {
-                    q = fmax(q, p[j] + r[i - j]);
+                    q = max(q, p[j] + r[i - j]);
                 }
                 r[i] = q;
             }
