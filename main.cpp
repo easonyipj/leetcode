@@ -2,18 +2,28 @@
 #include <vector>
 #include "map"
 #include "algorithm"
-#include "./dp/uniquePaths.cpp"
+#include "./dp/bombEnemy.cpp"
 
 using namespace std;
 
 int main()
 {
-    vector<vector<int>> vec = {
-                               {0, 0, 0},
-                               {0, 1, 0},
-                               {0, 0, 0}
-                              };
-    cout<<dp::uniquePaths::getUniquePathsII(vec)<<endl;
+    string s = "sssaaabcd";
+
+    for(int i = 1, pre = 0, next = 2; next < s.size();) {
+        if(s[i] == s[pre] && s[i] == s[next]) {
+            // 删掉next处字符
+            s.erase(s.begin() + next);
+            continue;
+        }else{
+            pre++;
+            i++;
+            next++;
+        }
+    }
+
+    cout<<s<<endl;
+
 }
 
 
