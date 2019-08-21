@@ -20,7 +20,8 @@ namespace str{
                cout<<endl;
            }
 
-           for(string &s : ss) {
+           for(int k = 0; k < ss.size(); k++) {
+               string s = ss[k];
                if(s.length() < 3) {
                    cout<<s<<endl;
                    continue;
@@ -39,9 +40,19 @@ namespace str{
                }
 
                // 2 aabb
-               for(int i = 1, pre = 0; i < s.size(); i++) {
-
+               for(int i = 1, pre = 0; i < s.size() - 2; ) {
+                    if(s[pre] == s[i]) {
+                        if(s[pre + 2] == s[i + 2]) {
+                            // 删掉第二对第一处字符
+                            s.erase(s.begin() + pre + 2);
+                            continue;
+                        }
+                    }
+                    i++;
+                    pre++;
                }
+
+               cout<<s<<endl;
 
            }
 

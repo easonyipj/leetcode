@@ -2,28 +2,19 @@
 #include <vector>
 #include "map"
 #include "algorithm"
-#include "./dp/bombEnemy.cpp"
+#include "./sort/selectSort.cpp"
 
 using namespace std;
 
 int main()
 {
-    string s = "sssaaabcd";
+    vector<int> nums = {4,5,3,6,2,5,1};
 
-    for(int i = 1, pre = 0, next = 2; next < s.size();) {
-        if(s[i] == s[pre] && s[i] == s[next]) {
-            // 删掉next处字符
-            s.erase(s.begin() + next);
-            continue;
-        }else{
-            pre++;
-            i++;
-            next++;
-        }
+    nums = sort::selectSort::sort(nums);
+
+    for(int i : nums) {
+        cout<< i <<endl;
     }
-
-    cout<<s<<endl;
-
 }
 
 
