@@ -22,6 +22,22 @@ namespace sort{
             }
             return nums;
         }
+
+        // 正统插入排序
+        static vector<int> sortI(vector<int>& nums) {
+            int n = nums.size();
+            for(int i = 1; i < n; i++) {
+                int inserted = nums[i];
+                int j = i - 1;
+                for(; j >= 0; j--) {
+                    if(nums[j] > inserted) {
+                        nums[j + 1 ] = nums[j];
+                    }
+                }
+                nums[j + 1] = inserted;
+            }
+            return nums;
+        }
     };
 }
 
