@@ -11,6 +11,7 @@ Return a deep copy of the list.
 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
 #include "map"
+#include "vector"
 
 using namespace std;
 
@@ -30,6 +31,33 @@ public:
 class copyList {
 public:
     static Node* copyRandomList(Node* head) {
+        // 原链表地址到位置的map
+        map<Node*, int> nodeMap;
+        // 存放新链表，同时也存储了位置到地址的映射
+        vector<Node*> listNode;
 
+        Node* ptr = head;
+        int index = 0;
+        while(ptr) {
+            listNode.push_back(new Node(ptr -> val, NULL, NULL));
+            nodeMap[ptr] = index;
+            ptr = ptr -> next;
+            index++;
+        }
+
+        listNode.push_back(NULL);
+
+        ptr = head;
+        int i = 0;
+        while(ptr) {
+            listNode[i] -> next = listNode[i + 1];
+            if(ptr -> random) {
+                listNode[i] -> random = listNode[nodeMap[ptr -> random]];
+            }
+            ptr = ptr -> next;
+            i++;
+        }
+
+        return listNode[0];
     }
 };
