@@ -6,6 +6,7 @@
 #include "./sort/quickSort.cpp"
 #include "./sort/insertSort.cpp"
 #include "./tsinghua/rankScore.cpp"
+#include "./stack/BasicCalculator.cpp"
 #include <iostream>
 #include <fstream>
 #include <cstdlib> //qsort在此头文件中声明
@@ -29,11 +30,8 @@ int main()
 //        weightSum += weight;
 //        cout << scoreSum / weightSum << endl;
 //    }
-    vector<int> nums = {2, 1, 8, 3, 4};
-       nums = sort::insertSort::sort(nums);
-       for(int i : nums) {
-           cout << i << endl;
-       }
+    string s = "1+ 121-(14 + (5+6))";
+    cout << BasicCalculator::calculate(s) << endl;
 }
 
 
