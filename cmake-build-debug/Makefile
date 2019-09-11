@@ -47,10 +47,10 @@ RM = "E:\CLion\CLion 2019.1.4\bin\cmake\win\bin\cmake.exe" -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Administrator\Desktop\Algorithm\leetcode\leetcode
+CMAKE_SOURCE_DIR = C:\Users\Administrator\Desktop\LeetCode\leetcode\leetcode
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Administrator\Desktop\Algorithm\leetcode\leetcode\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Administrator\Desktop\LeetCode\leetcode\leetcode\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Administrator\Desktop\Algorithm\leetcode\leetcode\cmake-build-debug\CMakeFiles C:\Users\Administrator\Desktop\Algorithm\leetcode\leetcode\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Administrator\Desktop\LeetCode\leetcode\leetcode\cmake-build-debug\CMakeFiles C:\Users\Administrator\Desktop\LeetCode\leetcode\leetcode\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Administrator\Desktop\Algorithm\leetcode\leetcode\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Administrator\Desktop\LeetCode\leetcode\leetcode\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -121,6 +121,33 @@ leetcode: cmake_check_build_system
 leetcode/fast:
 	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/build
 .PHONY : leetcode/fast
+
+array/medianSortedArrays.obj: array/medianSortedArrays.cpp.obj
+
+.PHONY : array/medianSortedArrays.obj
+
+# target to build an object file
+array/medianSortedArrays.cpp.obj:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/array/medianSortedArrays.cpp.obj
+.PHONY : array/medianSortedArrays.cpp.obj
+
+array/medianSortedArrays.i: array/medianSortedArrays.cpp.i
+
+.PHONY : array/medianSortedArrays.i
+
+# target to preprocess a source file
+array/medianSortedArrays.cpp.i:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/array/medianSortedArrays.cpp.i
+.PHONY : array/medianSortedArrays.cpp.i
+
+array/medianSortedArrays.s: array/medianSortedArrays.cpp.s
+
+.PHONY : array/medianSortedArrays.s
+
+# target to generate assembly for a file
+array/medianSortedArrays.cpp.s:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/array/medianSortedArrays.cpp.s
+.PHONY : array/medianSortedArrays.cpp.s
 
 backtracking/restoreIpAddresses.obj: backtracking/restoreIpAddresses.cpp.obj
 
@@ -175,6 +202,33 @@ backtracking/wordSearch.s: backtracking/wordSearch.cpp.s
 backtracking/wordSearch.cpp.s:
 	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/backtracking/wordSearch.cpp.s
 .PHONY : backtracking/wordSearch.cpp.s
+
+dp/bombEnemy.obj: dp/bombEnemy.cpp.obj
+
+.PHONY : dp/bombEnemy.obj
+
+# target to build an object file
+dp/bombEnemy.cpp.obj:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/dp/bombEnemy.cpp.obj
+.PHONY : dp/bombEnemy.cpp.obj
+
+dp/bombEnemy.i: dp/bombEnemy.cpp.i
+
+.PHONY : dp/bombEnemy.i
+
+# target to preprocess a source file
+dp/bombEnemy.cpp.i:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/dp/bombEnemy.cpp.i
+.PHONY : dp/bombEnemy.cpp.i
+
+dp/bombEnemy.s: dp/bombEnemy.cpp.s
+
+.PHONY : dp/bombEnemy.s
+
+# target to generate assembly for a file
+dp/bombEnemy.cpp.s:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/dp/bombEnemy.cpp.s
+.PHONY : dp/bombEnemy.cpp.s
 
 dp/canJump.obj: dp/canJump.cpp.obj
 
@@ -256,6 +310,33 @@ dp/coinsCash.s: dp/coinsCash.cpp.s
 dp/coinsCash.cpp.s:
 	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/dp/coinsCash.cpp.s
 .PHONY : dp/coinsCash.cpp.s
+
+dp/countingBits.obj: dp/countingBits.cpp.obj
+
+.PHONY : dp/countingBits.obj
+
+# target to build an object file
+dp/countingBits.cpp.obj:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/dp/countingBits.cpp.obj
+.PHONY : dp/countingBits.cpp.obj
+
+dp/countingBits.i: dp/countingBits.cpp.i
+
+.PHONY : dp/countingBits.i
+
+# target to preprocess a source file
+dp/countingBits.cpp.i:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/dp/countingBits.cpp.i
+.PHONY : dp/countingBits.cpp.i
+
+dp/countingBits.s: dp/countingBits.cpp.s
+
+.PHONY : dp/countingBits.s
+
+# target to generate assembly for a file
+dp/countingBits.cpp.s:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/dp/countingBits.cpp.s
+.PHONY : dp/countingBits.cpp.s
 
 dp/cutSteelStrip.obj: dp/cutSteelStrip.cpp.obj
 
@@ -581,6 +662,33 @@ dp/wordBreak.cpp.s:
 	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/dp/wordBreak.cpp.s
 .PHONY : dp/wordBreak.cpp.s
 
+exam/huawei.obj: exam/huawei.cpp.obj
+
+.PHONY : exam/huawei.obj
+
+# target to build an object file
+exam/huawei.cpp.obj:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/exam/huawei.cpp.obj
+.PHONY : exam/huawei.cpp.obj
+
+exam/huawei.i: exam/huawei.cpp.i
+
+.PHONY : exam/huawei.i
+
+# target to preprocess a source file
+exam/huawei.cpp.i:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/exam/huawei.cpp.i
+.PHONY : exam/huawei.cpp.i
+
+exam/huawei.s: exam/huawei.cpp.s
+
+.PHONY : exam/huawei.s
+
+# target to generate assembly for a file
+exam/huawei.cpp.s:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/exam/huawei.cpp.s
+.PHONY : exam/huawei.cpp.s
+
 graph/courseSchedule.obj: graph/courseSchedule.cpp.obj
 
 .PHONY : graph/courseSchedule.obj
@@ -607,6 +715,141 @@ graph/courseSchedule.s: graph/courseSchedule.cpp.s
 graph/courseSchedule.cpp.s:
 	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/graph/courseSchedule.cpp.s
 .PHONY : graph/courseSchedule.cpp.s
+
+hit/buyChicken.obj: hit/buyChicken.cpp.obj
+
+.PHONY : hit/buyChicken.obj
+
+# target to build an object file
+hit/buyChicken.cpp.obj:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/hit/buyChicken.cpp.obj
+.PHONY : hit/buyChicken.cpp.obj
+
+hit/buyChicken.i: hit/buyChicken.cpp.i
+
+.PHONY : hit/buyChicken.i
+
+# target to preprocess a source file
+hit/buyChicken.cpp.i:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/hit/buyChicken.cpp.i
+.PHONY : hit/buyChicken.cpp.i
+
+hit/buyChicken.s: hit/buyChicken.cpp.s
+
+.PHONY : hit/buyChicken.s
+
+# target to generate assembly for a file
+hit/buyChicken.cpp.s:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/hit/buyChicken.cpp.s
+.PHONY : hit/buyChicken.cpp.s
+
+linkedList/copyListWithRandomPointer.obj: linkedList/copyListWithRandomPointer.cpp.obj
+
+.PHONY : linkedList/copyListWithRandomPointer.obj
+
+# target to build an object file
+linkedList/copyListWithRandomPointer.cpp.obj:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/linkedList/copyListWithRandomPointer.cpp.obj
+.PHONY : linkedList/copyListWithRandomPointer.cpp.obj
+
+linkedList/copyListWithRandomPointer.i: linkedList/copyListWithRandomPointer.cpp.i
+
+.PHONY : linkedList/copyListWithRandomPointer.i
+
+# target to preprocess a source file
+linkedList/copyListWithRandomPointer.cpp.i:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/linkedList/copyListWithRandomPointer.cpp.i
+.PHONY : linkedList/copyListWithRandomPointer.cpp.i
+
+linkedList/copyListWithRandomPointer.s: linkedList/copyListWithRandomPointer.cpp.s
+
+.PHONY : linkedList/copyListWithRandomPointer.s
+
+# target to generate assembly for a file
+linkedList/copyListWithRandomPointer.cpp.s:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/linkedList/copyListWithRandomPointer.cpp.s
+.PHONY : linkedList/copyListWithRandomPointer.cpp.s
+
+linkedList/intersectionofTwoLinkedLists.obj: linkedList/intersectionofTwoLinkedLists.cpp.obj
+
+.PHONY : linkedList/intersectionofTwoLinkedLists.obj
+
+# target to build an object file
+linkedList/intersectionofTwoLinkedLists.cpp.obj:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/linkedList/intersectionofTwoLinkedLists.cpp.obj
+.PHONY : linkedList/intersectionofTwoLinkedLists.cpp.obj
+
+linkedList/intersectionofTwoLinkedLists.i: linkedList/intersectionofTwoLinkedLists.cpp.i
+
+.PHONY : linkedList/intersectionofTwoLinkedLists.i
+
+# target to preprocess a source file
+linkedList/intersectionofTwoLinkedLists.cpp.i:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/linkedList/intersectionofTwoLinkedLists.cpp.i
+.PHONY : linkedList/intersectionofTwoLinkedLists.cpp.i
+
+linkedList/intersectionofTwoLinkedLists.s: linkedList/intersectionofTwoLinkedLists.cpp.s
+
+.PHONY : linkedList/intersectionofTwoLinkedLists.s
+
+# target to generate assembly for a file
+linkedList/intersectionofTwoLinkedLists.cpp.s:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/linkedList/intersectionofTwoLinkedLists.cpp.s
+.PHONY : linkedList/intersectionofTwoLinkedLists.cpp.s
+
+linkedList/merge_KSortedLists.obj: linkedList/merge_KSortedLists.cpp.obj
+
+.PHONY : linkedList/merge_KSortedLists.obj
+
+# target to build an object file
+linkedList/merge_KSortedLists.cpp.obj:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/linkedList/merge_KSortedLists.cpp.obj
+.PHONY : linkedList/merge_KSortedLists.cpp.obj
+
+linkedList/merge_KSortedLists.i: linkedList/merge_KSortedLists.cpp.i
+
+.PHONY : linkedList/merge_KSortedLists.i
+
+# target to preprocess a source file
+linkedList/merge_KSortedLists.cpp.i:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/linkedList/merge_KSortedLists.cpp.i
+.PHONY : linkedList/merge_KSortedLists.cpp.i
+
+linkedList/merge_KSortedLists.s: linkedList/merge_KSortedLists.cpp.s
+
+.PHONY : linkedList/merge_KSortedLists.s
+
+# target to generate assembly for a file
+linkedList/merge_KSortedLists.cpp.s:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/linkedList/merge_KSortedLists.cpp.s
+.PHONY : linkedList/merge_KSortedLists.cpp.s
+
+linkedList/partitionList.obj: linkedList/partitionList.cpp.obj
+
+.PHONY : linkedList/partitionList.obj
+
+# target to build an object file
+linkedList/partitionList.cpp.obj:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/linkedList/partitionList.cpp.obj
+.PHONY : linkedList/partitionList.cpp.obj
+
+linkedList/partitionList.i: linkedList/partitionList.cpp.i
+
+.PHONY : linkedList/partitionList.i
+
+# target to preprocess a source file
+linkedList/partitionList.cpp.i:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/linkedList/partitionList.cpp.i
+.PHONY : linkedList/partitionList.cpp.i
+
+linkedList/partitionList.s: linkedList/partitionList.cpp.s
+
+.PHONY : linkedList/partitionList.s
+
+# target to generate assembly for a file
+linkedList/partitionList.cpp.s:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/linkedList/partitionList.cpp.s
+.PHONY : linkedList/partitionList.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -635,6 +878,60 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+pdd/TODOplantTree.obj: pdd/TODOplantTree.cpp.obj
+
+.PHONY : pdd/TODOplantTree.obj
+
+# target to build an object file
+pdd/TODOplantTree.cpp.obj:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/pdd/TODOplantTree.cpp.obj
+.PHONY : pdd/TODOplantTree.cpp.obj
+
+pdd/TODOplantTree.i: pdd/TODOplantTree.cpp.i
+
+.PHONY : pdd/TODOplantTree.i
+
+# target to preprocess a source file
+pdd/TODOplantTree.cpp.i:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/pdd/TODOplantTree.cpp.i
+.PHONY : pdd/TODOplantTree.cpp.i
+
+pdd/TODOplantTree.s: pdd/TODOplantTree.cpp.s
+
+.PHONY : pdd/TODOplantTree.s
+
+# target to generate assembly for a file
+pdd/TODOplantTree.cpp.s:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/pdd/TODOplantTree.cpp.s
+.PHONY : pdd/TODOplantTree.cpp.s
+
+pdd/TODOselectPhoneNumber.obj: pdd/TODOselectPhoneNumber.cpp.obj
+
+.PHONY : pdd/TODOselectPhoneNumber.obj
+
+# target to build an object file
+pdd/TODOselectPhoneNumber.cpp.obj:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/pdd/TODOselectPhoneNumber.cpp.obj
+.PHONY : pdd/TODOselectPhoneNumber.cpp.obj
+
+pdd/TODOselectPhoneNumber.i: pdd/TODOselectPhoneNumber.cpp.i
+
+.PHONY : pdd/TODOselectPhoneNumber.i
+
+# target to preprocess a source file
+pdd/TODOselectPhoneNumber.cpp.i:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/pdd/TODOselectPhoneNumber.cpp.i
+.PHONY : pdd/TODOselectPhoneNumber.cpp.i
+
+pdd/TODOselectPhoneNumber.s: pdd/TODOselectPhoneNumber.cpp.s
+
+.PHONY : pdd/TODOselectPhoneNumber.s
+
+# target to generate assembly for a file
+pdd/TODOselectPhoneNumber.cpp.s:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/pdd/TODOselectPhoneNumber.cpp.s
+.PHONY : pdd/TODOselectPhoneNumber.cpp.s
+
 pdd/pdd.obj: pdd/pdd.cpp.obj
 
 .PHONY : pdd/pdd.obj
@@ -661,6 +958,249 @@ pdd/pdd.s: pdd/pdd.cpp.s
 pdd/pdd.cpp.s:
 	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/pdd/pdd.cpp.s
 .PHONY : pdd/pdd.cpp.s
+
+queue/KthLargestElementInArray.obj: queue/KthLargestElementInArray.cpp.obj
+
+.PHONY : queue/KthLargestElementInArray.obj
+
+# target to build an object file
+queue/KthLargestElementInArray.cpp.obj:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/queue/KthLargestElementInArray.cpp.obj
+.PHONY : queue/KthLargestElementInArray.cpp.obj
+
+queue/KthLargestElementInArray.i: queue/KthLargestElementInArray.cpp.i
+
+.PHONY : queue/KthLargestElementInArray.i
+
+# target to preprocess a source file
+queue/KthLargestElementInArray.cpp.i:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/queue/KthLargestElementInArray.cpp.i
+.PHONY : queue/KthLargestElementInArray.cpp.i
+
+queue/KthLargestElementInArray.s: queue/KthLargestElementInArray.cpp.s
+
+.PHONY : queue/KthLargestElementInArray.s
+
+# target to generate assembly for a file
+queue/KthLargestElementInArray.cpp.s:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/queue/KthLargestElementInArray.cpp.s
+.PHONY : queue/KthLargestElementInArray.cpp.s
+
+sort/bubbleSort.obj: sort/bubbleSort.cpp.obj
+
+.PHONY : sort/bubbleSort.obj
+
+# target to build an object file
+sort/bubbleSort.cpp.obj:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/sort/bubbleSort.cpp.obj
+.PHONY : sort/bubbleSort.cpp.obj
+
+sort/bubbleSort.i: sort/bubbleSort.cpp.i
+
+.PHONY : sort/bubbleSort.i
+
+# target to preprocess a source file
+sort/bubbleSort.cpp.i:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/sort/bubbleSort.cpp.i
+.PHONY : sort/bubbleSort.cpp.i
+
+sort/bubbleSort.s: sort/bubbleSort.cpp.s
+
+.PHONY : sort/bubbleSort.s
+
+# target to generate assembly for a file
+sort/bubbleSort.cpp.s:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/sort/bubbleSort.cpp.s
+.PHONY : sort/bubbleSort.cpp.s
+
+sort/insertSort.obj: sort/insertSort.cpp.obj
+
+.PHONY : sort/insertSort.obj
+
+# target to build an object file
+sort/insertSort.cpp.obj:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/sort/insertSort.cpp.obj
+.PHONY : sort/insertSort.cpp.obj
+
+sort/insertSort.i: sort/insertSort.cpp.i
+
+.PHONY : sort/insertSort.i
+
+# target to preprocess a source file
+sort/insertSort.cpp.i:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/sort/insertSort.cpp.i
+.PHONY : sort/insertSort.cpp.i
+
+sort/insertSort.s: sort/insertSort.cpp.s
+
+.PHONY : sort/insertSort.s
+
+# target to generate assembly for a file
+sort/insertSort.cpp.s:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/sort/insertSort.cpp.s
+.PHONY : sort/insertSort.cpp.s
+
+sort/mergeSort.obj: sort/mergeSort.cpp.obj
+
+.PHONY : sort/mergeSort.obj
+
+# target to build an object file
+sort/mergeSort.cpp.obj:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/sort/mergeSort.cpp.obj
+.PHONY : sort/mergeSort.cpp.obj
+
+sort/mergeSort.i: sort/mergeSort.cpp.i
+
+.PHONY : sort/mergeSort.i
+
+# target to preprocess a source file
+sort/mergeSort.cpp.i:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/sort/mergeSort.cpp.i
+.PHONY : sort/mergeSort.cpp.i
+
+sort/mergeSort.s: sort/mergeSort.cpp.s
+
+.PHONY : sort/mergeSort.s
+
+# target to generate assembly for a file
+sort/mergeSort.cpp.s:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/sort/mergeSort.cpp.s
+.PHONY : sort/mergeSort.cpp.s
+
+sort/quickSort.obj: sort/quickSort.cpp.obj
+
+.PHONY : sort/quickSort.obj
+
+# target to build an object file
+sort/quickSort.cpp.obj:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/sort/quickSort.cpp.obj
+.PHONY : sort/quickSort.cpp.obj
+
+sort/quickSort.i: sort/quickSort.cpp.i
+
+.PHONY : sort/quickSort.i
+
+# target to preprocess a source file
+sort/quickSort.cpp.i:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/sort/quickSort.cpp.i
+.PHONY : sort/quickSort.cpp.i
+
+sort/quickSort.s: sort/quickSort.cpp.s
+
+.PHONY : sort/quickSort.s
+
+# target to generate assembly for a file
+sort/quickSort.cpp.s:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/sort/quickSort.cpp.s
+.PHONY : sort/quickSort.cpp.s
+
+sort/selectSort.obj: sort/selectSort.cpp.obj
+
+.PHONY : sort/selectSort.obj
+
+# target to build an object file
+sort/selectSort.cpp.obj:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/sort/selectSort.cpp.obj
+.PHONY : sort/selectSort.cpp.obj
+
+sort/selectSort.i: sort/selectSort.cpp.i
+
+.PHONY : sort/selectSort.i
+
+# target to preprocess a source file
+sort/selectSort.cpp.i:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/sort/selectSort.cpp.i
+.PHONY : sort/selectSort.cpp.i
+
+sort/selectSort.s: sort/selectSort.cpp.s
+
+.PHONY : sort/selectSort.s
+
+# target to generate assembly for a file
+sort/selectSort.cpp.s:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/sort/selectSort.cpp.s
+.PHONY : sort/selectSort.cpp.s
+
+sort/shellSort.obj: sort/shellSort.cpp.obj
+
+.PHONY : sort/shellSort.obj
+
+# target to build an object file
+sort/shellSort.cpp.obj:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/sort/shellSort.cpp.obj
+.PHONY : sort/shellSort.cpp.obj
+
+sort/shellSort.i: sort/shellSort.cpp.i
+
+.PHONY : sort/shellSort.i
+
+# target to preprocess a source file
+sort/shellSort.cpp.i:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/sort/shellSort.cpp.i
+.PHONY : sort/shellSort.cpp.i
+
+sort/shellSort.s: sort/shellSort.cpp.s
+
+.PHONY : sort/shellSort.s
+
+# target to generate assembly for a file
+sort/shellSort.cpp.s:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/sort/shellSort.cpp.s
+.PHONY : sort/shellSort.cpp.s
+
+stack/BasicCalculator.obj: stack/BasicCalculator.cpp.obj
+
+.PHONY : stack/BasicCalculator.obj
+
+# target to build an object file
+stack/BasicCalculator.cpp.obj:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/stack/BasicCalculator.cpp.obj
+.PHONY : stack/BasicCalculator.cpp.obj
+
+stack/BasicCalculator.i: stack/BasicCalculator.cpp.i
+
+.PHONY : stack/BasicCalculator.i
+
+# target to preprocess a source file
+stack/BasicCalculator.cpp.i:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/stack/BasicCalculator.cpp.i
+.PHONY : stack/BasicCalculator.cpp.i
+
+stack/BasicCalculator.s: stack/BasicCalculator.cpp.s
+
+.PHONY : stack/BasicCalculator.s
+
+# target to generate assembly for a file
+stack/BasicCalculator.cpp.s:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/stack/BasicCalculator.cpp.s
+.PHONY : stack/BasicCalculator.cpp.s
+
+stack/ImplementStackUsingQueues.obj: stack/ImplementStackUsingQueues.cpp.obj
+
+.PHONY : stack/ImplementStackUsingQueues.obj
+
+# target to build an object file
+stack/ImplementStackUsingQueues.cpp.obj:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/stack/ImplementStackUsingQueues.cpp.obj
+.PHONY : stack/ImplementStackUsingQueues.cpp.obj
+
+stack/ImplementStackUsingQueues.i: stack/ImplementStackUsingQueues.cpp.i
+
+.PHONY : stack/ImplementStackUsingQueues.i
+
+# target to preprocess a source file
+stack/ImplementStackUsingQueues.cpp.i:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/stack/ImplementStackUsingQueues.cpp.i
+.PHONY : stack/ImplementStackUsingQueues.cpp.i
+
+stack/ImplementStackUsingQueues.s: stack/ImplementStackUsingQueues.cpp.s
+
+.PHONY : stack/ImplementStackUsingQueues.s
+
+# target to generate assembly for a file
+stack/ImplementStackUsingQueues.cpp.s:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/stack/ImplementStackUsingQueues.cpp.s
+.PHONY : stack/ImplementStackUsingQueues.cpp.s
 
 stack/IsPopOrder.obj: stack/IsPopOrder.cpp.obj
 
@@ -689,6 +1229,87 @@ stack/IsPopOrder.cpp.s:
 	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/stack/IsPopOrder.cpp.s
 .PHONY : stack/IsPopOrder.cpp.s
 
+string/errorRecord.obj: string/errorRecord.cpp.obj
+
+.PHONY : string/errorRecord.obj
+
+# target to build an object file
+string/errorRecord.cpp.obj:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/string/errorRecord.cpp.obj
+.PHONY : string/errorRecord.cpp.obj
+
+string/errorRecord.i: string/errorRecord.cpp.i
+
+.PHONY : string/errorRecord.i
+
+# target to preprocess a source file
+string/errorRecord.cpp.i:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/string/errorRecord.cpp.i
+.PHONY : string/errorRecord.cpp.i
+
+string/errorRecord.s: string/errorRecord.cpp.s
+
+.PHONY : string/errorRecord.s
+
+# target to generate assembly for a file
+string/errorRecord.cpp.s:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/string/errorRecord.cpp.s
+.PHONY : string/errorRecord.cpp.s
+
+string/isContinuous.obj: string/isContinuous.cpp.obj
+
+.PHONY : string/isContinuous.obj
+
+# target to build an object file
+string/isContinuous.cpp.obj:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/string/isContinuous.cpp.obj
+.PHONY : string/isContinuous.cpp.obj
+
+string/isContinuous.i: string/isContinuous.cpp.i
+
+.PHONY : string/isContinuous.i
+
+# target to preprocess a source file
+string/isContinuous.cpp.i:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/string/isContinuous.cpp.i
+.PHONY : string/isContinuous.cpp.i
+
+string/isContinuous.s: string/isContinuous.cpp.s
+
+.PHONY : string/isContinuous.s
+
+# target to generate assembly for a file
+string/isContinuous.cpp.s:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/string/isContinuous.cpp.s
+.PHONY : string/isContinuous.cpp.s
+
+string/lastLength.obj: string/lastLength.cpp.obj
+
+.PHONY : string/lastLength.obj
+
+# target to build an object file
+string/lastLength.cpp.obj:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/string/lastLength.cpp.obj
+.PHONY : string/lastLength.cpp.obj
+
+string/lastLength.i: string/lastLength.cpp.i
+
+.PHONY : string/lastLength.i
+
+# target to preprocess a source file
+string/lastLength.cpp.i:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/string/lastLength.cpp.i
+.PHONY : string/lastLength.cpp.i
+
+string/lastLength.s: string/lastLength.cpp.s
+
+.PHONY : string/lastLength.s
+
+# target to generate assembly for a file
+string/lastLength.cpp.s:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/string/lastLength.cpp.s
+.PHONY : string/lastLength.cpp.s
+
 string/shortestPalindrome.obj: string/shortestPalindrome.cpp.obj
 
 .PHONY : string/shortestPalindrome.obj
@@ -715,6 +1336,60 @@ string/shortestPalindrome.s: string/shortestPalindrome.cpp.s
 string/shortestPalindrome.cpp.s:
 	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/string/shortestPalindrome.cpp.s
 .PHONY : string/shortestPalindrome.cpp.s
+
+string/simplePassword.obj: string/simplePassword.cpp.obj
+
+.PHONY : string/simplePassword.obj
+
+# target to build an object file
+string/simplePassword.cpp.obj:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/string/simplePassword.cpp.obj
+.PHONY : string/simplePassword.cpp.obj
+
+string/simplePassword.i: string/simplePassword.cpp.i
+
+.PHONY : string/simplePassword.i
+
+# target to preprocess a source file
+string/simplePassword.cpp.i:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/string/simplePassword.cpp.i
+.PHONY : string/simplePassword.cpp.i
+
+string/simplePassword.s: string/simplePassword.cpp.s
+
+.PHONY : string/simplePassword.s
+
+# target to generate assembly for a file
+string/simplePassword.cpp.s:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/string/simplePassword.cpp.s
+.PHONY : string/simplePassword.cpp.s
+
+string/spellError.obj: string/spellError.cpp.obj
+
+.PHONY : string/spellError.obj
+
+# target to build an object file
+string/spellError.cpp.obj:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/string/spellError.cpp.obj
+.PHONY : string/spellError.cpp.obj
+
+string/spellError.i: string/spellError.cpp.i
+
+.PHONY : string/spellError.i
+
+# target to preprocess a source file
+string/spellError.cpp.i:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/string/spellError.cpp.i
+.PHONY : string/spellError.cpp.i
+
+string/spellError.s: string/spellError.cpp.s
+
+.PHONY : string/spellError.s
+
+# target to generate assembly for a file
+string/spellError.cpp.s:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/string/spellError.cpp.s
+.PHONY : string/spellError.cpp.s
 
 tree/traverse.obj: tree/traverse.cpp.obj
 
@@ -797,6 +1472,33 @@ tree/verifySquenceOfBST.cpp.s:
 	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/tree/verifySquenceOfBST.cpp.s
 .PHONY : tree/verifySquenceOfBST.cpp.s
 
+tsinghua/rankScore.obj: tsinghua/rankScore.cpp.obj
+
+.PHONY : tsinghua/rankScore.obj
+
+# target to build an object file
+tsinghua/rankScore.cpp.obj:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/tsinghua/rankScore.cpp.obj
+.PHONY : tsinghua/rankScore.cpp.obj
+
+tsinghua/rankScore.i: tsinghua/rankScore.cpp.i
+
+.PHONY : tsinghua/rankScore.i
+
+# target to preprocess a source file
+tsinghua/rankScore.cpp.i:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/tsinghua/rankScore.cpp.i
+.PHONY : tsinghua/rankScore.cpp.i
+
+tsinghua/rankScore.s: tsinghua/rankScore.cpp.s
+
+.PHONY : tsinghua/rankScore.s
+
+# target to generate assembly for a file
+tsinghua/rankScore.cpp.s:
+	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/tsinghua/rankScore.cpp.s
+.PHONY : tsinghua/rankScore.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -806,12 +1508,18 @@ help:
 	@echo ... leetcode
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... array/medianSortedArrays.obj
+	@echo ... array/medianSortedArrays.i
+	@echo ... array/medianSortedArrays.s
 	@echo ... backtracking/restoreIpAddresses.obj
 	@echo ... backtracking/restoreIpAddresses.i
 	@echo ... backtracking/restoreIpAddresses.s
 	@echo ... backtracking/wordSearch.obj
 	@echo ... backtracking/wordSearch.i
 	@echo ... backtracking/wordSearch.s
+	@echo ... dp/bombEnemy.obj
+	@echo ... dp/bombEnemy.i
+	@echo ... dp/bombEnemy.s
 	@echo ... dp/canJump.obj
 	@echo ... dp/canJump.i
 	@echo ... dp/canJump.s
@@ -821,6 +1529,9 @@ help:
 	@echo ... dp/coinsCash.obj
 	@echo ... dp/coinsCash.i
 	@echo ... dp/coinsCash.s
+	@echo ... dp/countingBits.obj
+	@echo ... dp/countingBits.i
+	@echo ... dp/countingBits.s
 	@echo ... dp/cutSteelStrip.obj
 	@echo ... dp/cutSteelStrip.i
 	@echo ... dp/cutSteelStrip.s
@@ -857,21 +1568,87 @@ help:
 	@echo ... dp/wordBreak.obj
 	@echo ... dp/wordBreak.i
 	@echo ... dp/wordBreak.s
+	@echo ... exam/huawei.obj
+	@echo ... exam/huawei.i
+	@echo ... exam/huawei.s
 	@echo ... graph/courseSchedule.obj
 	@echo ... graph/courseSchedule.i
 	@echo ... graph/courseSchedule.s
+	@echo ... hit/buyChicken.obj
+	@echo ... hit/buyChicken.i
+	@echo ... hit/buyChicken.s
+	@echo ... linkedList/copyListWithRandomPointer.obj
+	@echo ... linkedList/copyListWithRandomPointer.i
+	@echo ... linkedList/copyListWithRandomPointer.s
+	@echo ... linkedList/intersectionofTwoLinkedLists.obj
+	@echo ... linkedList/intersectionofTwoLinkedLists.i
+	@echo ... linkedList/intersectionofTwoLinkedLists.s
+	@echo ... linkedList/merge_KSortedLists.obj
+	@echo ... linkedList/merge_KSortedLists.i
+	@echo ... linkedList/merge_KSortedLists.s
+	@echo ... linkedList/partitionList.obj
+	@echo ... linkedList/partitionList.i
+	@echo ... linkedList/partitionList.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... pdd/TODOplantTree.obj
+	@echo ... pdd/TODOplantTree.i
+	@echo ... pdd/TODOplantTree.s
+	@echo ... pdd/TODOselectPhoneNumber.obj
+	@echo ... pdd/TODOselectPhoneNumber.i
+	@echo ... pdd/TODOselectPhoneNumber.s
 	@echo ... pdd/pdd.obj
 	@echo ... pdd/pdd.i
 	@echo ... pdd/pdd.s
+	@echo ... queue/KthLargestElementInArray.obj
+	@echo ... queue/KthLargestElementInArray.i
+	@echo ... queue/KthLargestElementInArray.s
+	@echo ... sort/bubbleSort.obj
+	@echo ... sort/bubbleSort.i
+	@echo ... sort/bubbleSort.s
+	@echo ... sort/insertSort.obj
+	@echo ... sort/insertSort.i
+	@echo ... sort/insertSort.s
+	@echo ... sort/mergeSort.obj
+	@echo ... sort/mergeSort.i
+	@echo ... sort/mergeSort.s
+	@echo ... sort/quickSort.obj
+	@echo ... sort/quickSort.i
+	@echo ... sort/quickSort.s
+	@echo ... sort/selectSort.obj
+	@echo ... sort/selectSort.i
+	@echo ... sort/selectSort.s
+	@echo ... sort/shellSort.obj
+	@echo ... sort/shellSort.i
+	@echo ... sort/shellSort.s
+	@echo ... stack/BasicCalculator.obj
+	@echo ... stack/BasicCalculator.i
+	@echo ... stack/BasicCalculator.s
+	@echo ... stack/ImplementStackUsingQueues.obj
+	@echo ... stack/ImplementStackUsingQueues.i
+	@echo ... stack/ImplementStackUsingQueues.s
 	@echo ... stack/IsPopOrder.obj
 	@echo ... stack/IsPopOrder.i
 	@echo ... stack/IsPopOrder.s
+	@echo ... string/errorRecord.obj
+	@echo ... string/errorRecord.i
+	@echo ... string/errorRecord.s
+	@echo ... string/isContinuous.obj
+	@echo ... string/isContinuous.i
+	@echo ... string/isContinuous.s
+	@echo ... string/lastLength.obj
+	@echo ... string/lastLength.i
+	@echo ... string/lastLength.s
 	@echo ... string/shortestPalindrome.obj
 	@echo ... string/shortestPalindrome.i
 	@echo ... string/shortestPalindrome.s
+	@echo ... string/simplePassword.obj
+	@echo ... string/simplePassword.i
+	@echo ... string/simplePassword.s
+	@echo ... string/spellError.obj
+	@echo ... string/spellError.i
+	@echo ... string/spellError.s
 	@echo ... tree/traverse.obj
 	@echo ... tree/traverse.i
 	@echo ... tree/traverse.s
@@ -881,6 +1658,9 @@ help:
 	@echo ... tree/verifySquenceOfBST.obj
 	@echo ... tree/verifySquenceOfBST.i
 	@echo ... tree/verifySquenceOfBST.s
+	@echo ... tsinghua/rankScore.obj
+	@echo ... tsinghua/rankScore.i
+	@echo ... tsinghua/rankScore.s
 .PHONY : help
 
 

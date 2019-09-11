@@ -80,7 +80,7 @@ public:
                     }
                     opt.pop();
                 } else if(!opt.empty() && !compareOptPriority(s[i], opt.top())) {
-                    //符号栈 栈顶符号优先级较高，则弹出直到低于当前符号，并把当前符号压栈
+                    //
                     while (!opt.empty() && !compareOptPriority(s[i], opt.top())){
                         post.push_back(opt.top());
                         opt.pop();

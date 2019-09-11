@@ -1,4 +1,4 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/yipingjian/CLionProjects/leetcode
+"E:\CLion\CLion 2019.1.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -G "CodeBlocks - MinGW Makefiles" C:\Users\Administrator\Desktop\LeetCode\leetcode\leetcode
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/yipingjian/CLionProjects/leetcode/cmake-build-debug
+-- Build files have been written to: C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/cmake-build-debug

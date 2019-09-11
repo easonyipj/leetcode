@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="leetcode">
-				<Option output="C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/cmake-build-debug/leetcode.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/cmake-build-debug"/>
+				<Option output="C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/cmake-build-debug/leetcode.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -33,15 +33,15 @@
 					<Add directory="D:\compiler\include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 leetcode"/>
-					<CompileFile command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 leetcode"/>
+					<CompileFile command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="leetcode/fast">
-				<Option output="C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/cmake-build-debug/leetcode.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/cmake-build-debug"/>
+				<Option output="C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/cmake-build-debug/leetcode.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -55,109 +55,187 @@
 					<Add directory="D:\compiler\include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 leetcode/fast"/>
-					<CompileFile command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 leetcode/fast"/>
+					<CompileFile command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/MinGW/x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/backtracking/restoreIpAddresses.cpp">
+		<Unit filename="C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/array/medianSortedArrays.cpp">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/backtracking/wordSearch.cpp">
+		<Unit filename="C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/backtracking/restoreIpAddresses.cpp">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/dp/canJump.cpp">
+		<Unit filename="C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/backtracking/wordSearch.cpp">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/dp/climbStairs.cpp">
+		<Unit filename="C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/dp/bombEnemy.cpp">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/dp/coinsCash.cpp">
+		<Unit filename="C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/dp/canJump.cpp">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/dp/cutSteelStrip.cpp">
+		<Unit filename="C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/dp/climbStairs.cpp">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/dp/decodeWays.cpp">
+		<Unit filename="C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/dp/coinsCash.cpp">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/dp/longestIncreasingContinuousSubsequence.cpp">
+		<Unit filename="C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/dp/countingBits.cpp">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/dp/longestPalindrome.cpp">
+		<Unit filename="C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/dp/cutSteelStrip.cpp">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/dp/maxProfit.cpp">
+		<Unit filename="C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/dp/decodeWays.cpp">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/dp/maxSubArray.cpp">
+		<Unit filename="C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/dp/longestIncreasingContinuousSubsequence.cpp">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/dp/minimumPathSum.cpp">
+		<Unit filename="C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/dp/longestPalindrome.cpp">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/dp/paintHouse.cpp">
+		<Unit filename="C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/dp/maxProfit.cpp">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/dp/rob.cpp">
+		<Unit filename="C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/dp/maxSubArray.cpp">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/dp/subset.cpp">
+		<Unit filename="C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/dp/minimumPathSum.cpp">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/dp/uniquePaths.cpp">
+		<Unit filename="C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/dp/paintHouse.cpp">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/dp/wordBreak.cpp">
+		<Unit filename="C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/dp/rob.cpp">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/graph/courseSchedule.cpp">
+		<Unit filename="C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/dp/subset.cpp">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/main.cpp">
+		<Unit filename="C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/dp/uniquePaths.cpp">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/pdd/pdd.cpp">
+		<Unit filename="C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/dp/wordBreak.cpp">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/stack/IsPopOrder.cpp">
+		<Unit filename="C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/exam/huawei.cpp">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/string/shortestPalindrome.cpp">
+		<Unit filename="C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/graph/courseSchedule.cpp">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/tree/traverse.cpp">
+		<Unit filename="C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/hit/buyChicken.cpp">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/tree/treeNode.cpp">
+		<Unit filename="C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/linkedList/copyListWithRandomPointer.cpp">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/tree/verifySquenceOfBST.cpp">
+		<Unit filename="C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/linkedList/intersectionofTwoLinkedLists.cpp">
 			<Option target="leetcode"/>
 		</Unit>
-		<Unit filename="C:/Users/Administrator/Desktop/Algorithm/leetcode/leetcode/CMakeLists.txt">
+		<Unit filename="C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/linkedList/merge KSortedLists.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/linkedList/partitionList.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/main.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/pdd/TODOplantTree.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/pdd/TODOselectPhoneNumber.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/pdd/pdd.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/queue/KthLargestElementInArray.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/sort/bubbleSort.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/sort/insertSort.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/sort/mergeSort.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/sort/quickSort.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/sort/selectSort.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/sort/shellSort.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/stack/BasicCalculator.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/stack/ImplementStackUsingQueues.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/stack/IsPopOrder.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/string/errorRecord.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/string/isContinuous.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/string/lastLength.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/string/shortestPalindrome.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/string/simplePassword.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/string/spellError.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/tree/traverse.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/tree/treeNode.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/tree/verifySquenceOfBST.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/tsinghua/rankScore.cpp">
+			<Option target="leetcode"/>
+		</Unit>
+		<Unit filename="C:/Users/Administrator/Desktop/LeetCode/leetcode/leetcode/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
